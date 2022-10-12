@@ -5,6 +5,8 @@
     "module": "NodeNext",
     "noImplicitAny": true,
     "noImplicitThis": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
     "target": "es6",
     "jsx": "react",
     "allowJs": false,

@@ -9,6 +9,7 @@ import { EspruinoBoards, SecureDfuUpdate, SecureDfuUpdateMessage, SecureDfuUpdat
 import * as EspruinoHelper from "./espruino"
 import { ModalMessageType, modalMessages } from "./modalMessages"
 import { selectText, selectThis } from "./selectText"
+import amiibo from "../amiibo.json"
 
 const toArrayBuffer = require("arraybuffer-loader/lib/to-array-buffer.js")
 const slotTemplate = require("./templates/slot.pug")
@@ -89,7 +90,8 @@ $(() => {
     const element = $(slotTemplate({
       slot,
       uid: array2hex(summary.slice(0, 8)),
-      aid: array2hex(summary.slice(40, 44)) + array2hex(summary.slice(44, 48))
+      aid: array2hex(summary.slice(40, 44)) + array2hex(summary.slice(44, 48)),
+      name: amiibo["amiibos"]["0x" + array2hex(summary.slice(40, 44)) + array2hex(summary.slice(44, 48))]["name"]
     }))
 
     element.find("a.slot-download-link").on("click", async (e) => {
