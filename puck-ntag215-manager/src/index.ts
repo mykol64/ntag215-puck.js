@@ -98,7 +98,12 @@ $(() => {
     var gameseries = "Unknown";
     var amiiboseries = "Unknown";
     var type = "Unknown";
-    if (id != "000000000000000"){
+    if (id != "000000000000000")  else {
+      name = "Blank";
+      gameseries = "Blank";
+      amiiboseries  = "Blank";
+      type  = "Blank";
+    }{
     Object.entries(amiibo.amiibo).forEach(([key, value]) => {
       if (value.head + value.tail == id) {
       name = value.name;
@@ -106,11 +111,6 @@ $(() => {
       amiiboseries = value.amiiboSeries;
       type = value.type;
       return;
-    } else {
-      name = "Blank";
-      gameseries = "Blank";
-      amiiboseries  = "Blank";
-      type  = "Blank";
     }
   })}
     const element = $(slotTemplate({
