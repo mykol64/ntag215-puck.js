@@ -115,9 +115,12 @@ $(() => {
   })}
     const element = $(slotTemplate({
       slot,
-      uid: array2hex(summary.slice(0, 8)),
+      //uid: array2hex(summary.slice(0, 8)),
       id: id,
-      name: name
+      name: name,
+      gameseries: gameseries,
+      amiiboseries: amiiboseries,
+      type: type
     }))
 
     element.find("a.slot-download-link").on("click", async (e) => {
