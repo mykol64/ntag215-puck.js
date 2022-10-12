@@ -94,13 +94,25 @@ $(() => {
 
   function getSlotElement(slot: number, summary: Uint8Array): JQuery<HTMLElement> {
     const id = array2hex(summary.slice(40, 44)) + array2hex(summary.slice(44, 48));
-    var name = "Unknow";
+    var name = "Unknown";
+    var gameseries = "Unknown";
+    var amiiboseries = "Unknown";
+    var type = "Unknown";
+    if (id != "000000000000000"){
     Object.entries(amiibo.amiibo).forEach(([key, value]) => {
       if (value.head + value.tail == id) {
       name = value.name;
+      gameseries = value.gameSeries;
+      amiiboseries = value.amiiboSeries;
+      type = value.type;
       return;
+    } else {
+      name = "Blank";
+      gameseries = "Blank";
+      amiiboseries  = "Blank";
+      type  = "Blank";
     }
-  })
+  })}
     const element = $(slotTemplate({
       slot,
       uid: array2hex(summary.slice(0, 8)),

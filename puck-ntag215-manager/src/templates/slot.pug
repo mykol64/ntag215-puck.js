@@ -1,10 +1,6 @@
 .well.well-sm.slot
   .slot-title=slot + 1
   .slot-summary
-    if uid
-      div
-        b="UID: "
-        span=uid
     if aid
       div
         b="ID: "
@@ -13,6 +9,18 @@
       div
         b="Name: "
         span=name
+    if gameseries
+      div
+        b="Game Series: "
+        span=gameseries
+    if amiiboseries
+      div
+        b="Amiibo Series: "
+        span=amiiboseries
+    if type
+      div
+        b="Type: "
+        span=type
     ul.slot-links
       li: a.slot-download-link(href='#') Download
       li: a.slot-upload-link(href='#') Upload
