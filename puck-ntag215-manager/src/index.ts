@@ -20,7 +20,7 @@ const anyWindow = (window as any)
 const puck = anyWindow.puck = new Puck(console.log, console.warn, console.error)
 
 interface Amiibo {
-  name : string
+  name: string
 }
 
 
@@ -98,21 +98,23 @@ $(() => {
     var gameseries = "Unknown";
     var amiiboseries = "Unknown";
     var type = "Unknown";
-    if (id != "000000000000000")  else {
+    if (id != "000000000000000") {
+      Object.entries(amiibo.amiibo).forEach(([key, value]) => {
+        if (value.head + value.tail == id) {
+          name = value.name;
+          gameseries = value.gameSeries;
+          amiiboseries = value.amiiboSeries;
+          type = value.type;
+          return;
+        }
+      })
+    }
+    else {
       name = "Blank";
       gameseries = "Blank";
-      amiiboseries  = "Blank";
-      type  = "Blank";
-    }{
-    Object.entries(amiibo.amiibo).forEach(([key, value]) => {
-      if (value.head + value.tail == id) {
-      name = value.name;
-      gameseries = value.gameSeries;
-      amiiboseries = value.amiiboSeries;
-      type = value.type;
-      return;
+      amiiboseries = "Blank";
+      type = "Blank";
     }
-  })}
     const element = $(slotTemplate({
       slot,
       //uid: array2hex(summary.slice(0, 8)),
