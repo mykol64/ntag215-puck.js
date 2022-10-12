@@ -106,7 +106,7 @@ $(() => {
           gameseries = value.gameSeries;
           amiiboseries = value.amiiboSeries;
           type = value.type;
-          image: value.image;
+          image = value.image;
           return;
         }
       })
