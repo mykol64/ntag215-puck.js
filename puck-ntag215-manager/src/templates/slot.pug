@@ -21,6 +21,10 @@
       div
         b="Type: "
         span=type
+    if image 
+      div 
+        img(src=image)
+    
     ul.slot-links
       li: a.slot-download-link(href='#') Download
       li: a.slot-upload-link(href='#') Upload

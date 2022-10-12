@@ -98,6 +98,7 @@ $(() => {
     var gameseries = "Unknown";
     var amiiboseries = "Unknown";
     var type = "Unknown";
+    var image = "";
     if (id != "000000000000000") {
       Object.entries(amiibo.amiibo).forEach(([key, value]) => {
         if (value.head + value.tail == id) {
@@ -105,15 +106,10 @@ $(() => {
           gameseries = value.gameSeries;
           amiiboseries = value.amiiboSeries;
           type = value.type;
+          image: value.image;
           return;
         }
       })
-    }
-    else {
-      name = "Blank";
-      gameseries = "Blank";
-      amiiboseries = "Blank";
-      type = "Blank";
     }
     const element = $(slotTemplate({
       slot,
@@ -122,7 +118,8 @@ $(() => {
       name: name,
       gameseries: gameseries,
       amiiboseries: amiiboseries,
-      type: type
+      type: type,
+      image: image
     }))
 
     element.find("a.slot-download-link").on("click", async (e) => {
