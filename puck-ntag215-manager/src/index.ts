@@ -10,6 +10,7 @@ import * as EspruinoHelper from "./espruino"
 import { ModalMessageType, modalMessages } from "./modalMessages"
 import { selectText, selectThis } from "./selectText"
 import amiibo from "../amiibo.json"
+import { isPlainObject } from "jquery"
 
 const toArrayBuffer = require("arraybuffer-loader/lib/to-array-buffer.js")
 const slotTemplate = require("./templates/slot.pug")
@@ -19,9 +20,9 @@ const anyWindow = (window as any)
 const puck = anyWindow.puck = new Puck(console.log, console.warn, console.error)
 
 interface Amiibo {
-  "name": "string",
-  "release": any
+  name : string
 }
+
 
 $(() => {
   const mainContainer = $("#mainContainer")
@@ -92,13 +93,18 @@ $(() => {
   }
 
   function getSlotElement(slot: number, summary: Uint8Array): JQuery<HTMLElement> {
-    const aid = "0x" + array2hex(summary.slice(40, 44)) + array2hex(summary.slice(44, 48));
-    const amiiboObj = amiibo["amiibos"];
-    const name = eval('amiiboObj.${aid}.${name}');
+    const id = "0x" + array2hex(summary.slice(40, 44)) + array2hex(summary.slice(44, 48));
+    var name = "Unknow";
+    Object.entries(amiibo.amiibo).forEach(([key, value]) => {
+      if (value.head + value.tail == id) {
+      name = value.name;
+      return;
+    }
+  })
     const element = $(slotTemplate({
       slot,
       uid: array2hex(summary.slice(0, 8)),
-      aid: aid,
+      id: id,
       name: name
     }))
 
