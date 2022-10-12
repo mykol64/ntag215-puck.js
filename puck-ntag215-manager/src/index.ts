@@ -18,6 +18,11 @@ const boardTemplate = require("./templates/board-selector.pug")
 const anyWindow = (window as any)
 const puck = anyWindow.puck = new Puck(console.log, console.warn, console.error)
 
+interface Amiibo {
+  "name": "string",
+  "release": any
+}
+
 $(() => {
   const mainContainer = $("#mainContainer")
   const slotsContainer = $("#slotsContainer")
@@ -34,7 +39,7 @@ $(() => {
 
   if (__DEVELOPMENT__) {
     anyWindow.debug = {
-      ...(anyWindow.debug || { }),
+      ...(anyWindow.debug || {}),
       ...{
         EspruinoHelper,
         hardwareChooser,
@@ -87,11 +92,14 @@ $(() => {
   }
 
   function getSlotElement(slot: number, summary: Uint8Array): JQuery<HTMLElement> {
+    const aid = "0x" + array2hex(summary.slice(40, 44)) + array2hex(summary.slice(44, 48));
+    const amiiboObj = amiibo["amiibos"];
+    const name = eval('amiiboObj.${aid}.${name}');
     const element = $(slotTemplate({
       slot,
       uid: array2hex(summary.slice(0, 8)),
-      aid: array2hex(summary.slice(40, 44)) + array2hex(summary.slice(44, 48)),
-      name: amiibo["amiibos"]["0x" + array2hex(summary.slice(40, 44)) + array2hex(summary.slice(44, 48))]["name"]
+      aid: aid,
+      name: name
     }))
 
     element.find("a.slot-download-link").on("click", async (e) => {
