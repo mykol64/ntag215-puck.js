@@ -133,7 +133,7 @@ $(() => {
         })
         const data = await puck.readSlot(slot)
         await hideModal()
-        saveData(data, `slot${slot}.bin`)
+        saveData(data, `${name}.bin`)
       } catch (error) {
         await showModal({
           title: "Error",
