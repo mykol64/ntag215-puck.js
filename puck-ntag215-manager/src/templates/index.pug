@@ -12,7 +12,16 @@ html
     +githubCorner("https://github.com/DanTheMan827/ntag215-puck.js", "#fff", "#151513")
     .container#mainContainer
       button.btn.btn-default.btn-lg.btn-block.well#puckConnect(disabled="disabled") Connect to Puck
+      button.btn.btn-default.btn-lg.btn-block.well#updateFirmware(disabled="disabled") Update Firmware (DFU Mode)
+      button.btn.btn-default.btn-lg.btn-block.well#uploadScript(disabled="disabled") Upload Script (UART Mode)
       button.btn.btn-default.btn-lg.btn-block.well#puckDisconnect(disabled="disabled") Disconnect from Puck
+      button.btn.btn-default.btn-lg.btn-block.well#puckName(disabled="disabled") Change Name
+      button.btn.btn-default.btn-lg.btn-block.well#puckUart(disabled="disabled") Enable UART
+
+      #readme
+        include:markdown-it ../../readme.md
+        pre#code.hljs
+          include:highlight(lang="javascript") ../../ntag215.js
 
       #slotsContainer
 
