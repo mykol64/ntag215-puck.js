@@ -93,7 +93,7 @@ $(() => {
   }
 
   function getSlotElement(slot: number, summary: Uint8Array): JQuery<HTMLElement> {
-    const id = "0x" + array2hex(summary.slice(40, 44)) + array2hex(summary.slice(44, 48));
+    const id = array2hex(summary.slice(40, 44)) + array2hex(summary.slice(44, 48));
     var name = "Unknow";
     Object.entries(amiibo.amiibo).forEach(([key, value]) => {
       if (value.head + value.tail == id) {
