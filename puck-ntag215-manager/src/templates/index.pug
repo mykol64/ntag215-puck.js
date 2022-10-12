@@ -1,4 +1,4 @@
-
+include ./mixins/_githubCorner.pug
 
 html
   head
@@ -9,9 +9,13 @@ html
     link(rel="icon", href="./favicon.ico", type="image/x-icon")
     link(rel="apple-touch-icon", href="./apple-touch-icon.png")
   body
-    container#mainContainer
+    +githubCorner("https://github.com/DanTheMan827/ntag215-puck.js", "#fff", "#151513")
+    .container#mainContainer
       button.btn.btn-default.btn-lg.btn-block.well#puckConnect(disabled="disabled") Connect to Puck
       button.btn.btn-default.btn-lg.btn-block.well#puckDisconnect(disabled="disabled") Disconnect from Puck
 
       #slotsContainer
 
+
+    .editor--terminal
+      .editor__canvas
