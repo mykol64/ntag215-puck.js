@@ -88,7 +88,8 @@ $(() => {
   function getSlotElement(slot: number, summary: Uint8Array): JQuery<HTMLElement> {
     const element = $(slotTemplate({
       slot,
-      uid: array2hex(summary.slice(0, 8))
+      uid: array2hex(summary.slice(0, 8)),
+      aid: array2hex(summary.slice(40, 44)) + array2hex(summary.slice(44, 48))
     }))
 
     element.find("a.slot-download-link").on("click", async (e) => {
