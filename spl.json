@@ -2,6 +2,7 @@
     "08000100003e0402": "Splatoon,Inkling Girl,Splatoon",
     "08000100025f0402": "Splatoon,Inkling Girl - Lime Green,Splatoon",
     "0800010003690402": "Splatoon,Inkling Girl - Neon Pink,Splatoon",
+    "0800010004150402": "Splatoon,Inkling - Yellow,Splatoon",
     "08000200003f0402": "Splatoon,Inkling Boy,Splatoon",
     "0800020002600402": "Splatoon,Inkling Boy - Purple,Splatoon",
     "08000200036a0402": "Splatoon,Inkling Boy - Neon Green,Splatoon",
@@ -14,5 +15,7 @@
     "0804000003770402": "Splatoon,Marina,Splatoon",
     "08050100038e0402": "Splatoon,Octoling Girl,Splatoon",
     "08050200038f0402": "Splatoon,Octoling Boy,Splatoon",
-    "0805030003900402": "Splatoon,Octoling Octopus,Splatoon"
+    "08050200041b0402": "Splatoon,Octoling - Blue,Splatoon",
+    "0805030003900402": "Splatoon,Octoling Octopus,Splatoon",
+    "08060100041c0402": "Splatoon,Smallfry,Splatoon"
 }
