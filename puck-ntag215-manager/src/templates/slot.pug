@@ -1,14 +1,16 @@
-.well.well-sm.slot
-  .slot-title=slot + 1
+.well.slot
+  .slot-number=slot + 1
   .slot-summary
+    if image 
+      div 
+        img(src=image)
+    if name
+      div
+        h3=name
     if id
       div
         b="ID: "
         span=id
-    if name
-      div
-        b="Name: "
-        span=name
     if gameseries
       div
         b="Game Series: "
@@ -21,12 +23,12 @@
       div
         b="Type: "
         span=type
-    if image 
-      div 
-        //img(src=image)
     
-    ul.slot-links
+    button.btn.btn-block.btn-primary.slot-select-link Select
+    button.btn.btn-default.btn-block.dropdown-toggle(type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id=`dropdownMenu${slot + 1}`)=`Options ${slot + 1} `
+      span.caret
+    
+    ul.slot-links.dropdown-menu(aria-labelledby=`\"dropdownMenu${slot + 1}\"`)
       li: a.slot-download-link(href='#') Download
       li: a.slot-upload-link(href='#') Upload
       li: a.slot-clear-link(href="#") Clear
-      li: a.slot-select-link(href="#") Select

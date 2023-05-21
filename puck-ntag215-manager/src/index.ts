@@ -122,7 +122,7 @@ $(() => {
       image: image
     }))
 
-    element.find("a.slot-download-link").on("click", async (e) => {
+    element.find(".slot-download-link").on("click", async (e) => {
       e.preventDefault()
 
       try {
@@ -142,7 +142,7 @@ $(() => {
       }
     })
 
-    element.find("a.slot-upload-link").on("click", async (e) => {
+    element.find(".slot-upload-link").on("click", async (e) => {
       e.preventDefault()
 
       try {
@@ -156,13 +156,13 @@ $(() => {
       }
     })
 
-    element.find("a.slot-clear-link").on("click", async (e) => {
+    element.find(".slot-clear-link").on("click", async (e) => {
       e.preventDefault()
 
       await writeSlot(slot, getBlankNtag(), element)
     })
 
-    element.find("a.slot-select-link").on("click", async (e) => {
+    element.find(".slot-select-link").on("click", async (e) => {
       e.preventDefault()
 
       try {
