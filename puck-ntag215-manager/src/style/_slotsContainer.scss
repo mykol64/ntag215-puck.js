@@ -10,11 +10,11 @@
   display: inline-block;
   font-size: 0.85em;
   font-weight: bold;
+}
 
-
-  &:before {
-    // content: "Slot ";
-  }
+.slot-image {
+  height: 15rem;
+  width: auto;
 }
 
 .slot-links {

@@ -1,0 +1,18 @@
+.modal-dialog
+  .modal-content
+    .modal-header
+      if title
+        h1.modal-title.fs-5#flexModalLabel=title
+      else
+        h1.modal-title.fs-5#flexModalLabel Title
+      button.btn-close(type="button", data-bs-dismiss="modal", aria-label="Close")
+    .modal-body
+      if text  
+        p.modal-text=text
+      else
+        p.modal-text Placeholder
+    if footer
+    .modal-footer
+      button.btn.btn-secondary(type="button", data-bs-dismiss="modal") Close
+      if action
+        button.btn.btn-primary(type="button")=action

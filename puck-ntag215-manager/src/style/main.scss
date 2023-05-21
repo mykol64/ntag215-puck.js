@@ -1,19 +1,20 @@
 $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/" !default;
-@import "_variables.scss";
-@import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
-@import "mixins/breakpoints";
-@import "_bootswatch.scss";
+// @import "_variables.scss";
+@import "node_modules/bootstrap/scss/bootstrap";
+// @import "mixins/breakpoints";
+// @import "_bootswatch.scss";
 @import "_githubCorner.scss";
 @import "_mainContainer.scss";
 @import "_slotsContainer.scss";
 @import "_kofi.scss";
-// @import "~highlight.js/styles/androidstudio.css";
+@import "~highlight.js/styles/atom-one-light.css";
 
 #code {
   width: 100%;
   height: 400px;
+  padding: 1rem;
   font-family: monospace;
-  border: 1px solid #0B0C0E;
+  // border: 1px solid #0B0C0E;
 }
 
 #terminalfocus, .editor--terminal {

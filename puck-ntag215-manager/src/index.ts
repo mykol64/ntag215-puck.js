@@ -10,11 +10,13 @@ import * as EspruinoHelper from "./espruino"
 import { ModalMessageType, modalMessages } from "./modalMessages"
 import { selectText, selectThis } from "./selectText"
 import amiibo from "../amiibo.json"
+import  * as bootstrap from "bootstrap";
 import { isPlainObject } from "jquery"
 
 const toArrayBuffer = require("arraybuffer-loader/lib/to-array-buffer.js")
 const slotTemplate = require("./templates/slot.pug")
 const boardTemplate = require("./templates/board-selector.pug")
+const modalTemplate = require("./templates/modal-content.pug")
 
 const anyWindow = (window as any)
 const puck = anyWindow.puck = new Puck(console.log, console.warn, console.error)
@@ -23,19 +25,25 @@ interface Amiibo {
   name: string
 }
 
-
 $(() => {
   const mainContainer = $("#mainContainer")
   const slotsContainer = $("#slotsContainer")
   const scriptTextArea = $("#code")
   const firmwareName = $("#code").text().match(/const FIRMWARE_NAME = \"([^"]+)\";/)[1]
 
+  const flexModal = document.getElementById('flexModal')
+  const modalTitle = document.getElementById('flexModal').querySelector('.modal-title')
+  const modalText = document.getElementById('flexModal').querySelector('.modal-body .modal-text')
+  const modalControl = new bootstrap.Modal(flexModal)
+  let modalContent = modalTemplate()
+
   if (supportsBluetooth !== true) {
-    showModal({
-      title: "Unsupported Browser",
-      message: supportsBluetooth,
-      htmlEscapeBody: false
+    modalContent = modalTemplate({
+      title: "Unsupported browser :(",
+      text: supportsBluetooth
     })
+    flexModal.innerHTML = modalContent
+    modalControl.show(flexModal)
   }
 
   if (__DEVELOPMENT__) {
@@ -44,13 +52,13 @@ $(() => {
       ...{
         EspruinoHelper,
         hardwareChooser,
-        hideModal,
+        // hideModal,
         modalMessages,
         puck,
         readFile,
         saveData,
-        setModal,
-        showModal,
+        // setModal,
+        // showModal,
       }
     }
   }
@@ -60,14 +68,20 @@ $(() => {
 
     if (puck.isConnected) {
       const info = await puck.getSlotInformation()
+      modalContent = modalTemplate({
+        title: "Just a sec...",
+        text: "Reading Slot 1"
+      })
+      flexModal.innerHTML = modalContent
+      // console.log(flexModal.outerHTML)
+      modalControl.show(flexModal)
 
       for (let i = 0; i < info.totalSlots; i++) {
-        setModal({
-          message: `Reading Slot ${i + 1}`
-        })
+        flexModal.querySelector('.modal-text').textContent = `Reading Slot ${i + 1}`
         const slotInfo = await puck.readSlotSummary(i)
         slotsContainer.append(getSlotElement(i, slotInfo))
       }
+      modalControl.hide(flexModal)
     }
   }
 

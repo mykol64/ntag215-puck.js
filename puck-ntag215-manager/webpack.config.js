@@ -46,10 +46,29 @@ module.exports = (env, argv) => {
         {
           test: /\.s?css$/,
           use: [
-            MiniCssExtractPlugin.loader,
-            "css-loader", // translates CSS into CommonJS
-            "postcss-loader",
-            "sass-loader" // compiles Sass to CSS, using Node Sass by default
+            {
+              loader: MiniCssExtractPlugin.loader
+            },
+            {
+              loader: "style-loader"
+            },
+            {
+              loader: "css-loader" // translates CSS into CommonJS
+            },
+            {
+              loader: "postcss-loader",
+              options: {
+                postcssOptions: {
+                  plugins: () => [
+                    require('autoprefixer')
+                  ]
+                }
+              }
+
+            },
+            {
+              loader: "sass-loader" // compiles Sass to CSS, using Node Sass by default
+            }
           ]
         },
         {
