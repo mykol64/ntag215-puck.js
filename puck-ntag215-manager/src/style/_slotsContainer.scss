@@ -6,15 +6,41 @@
   position: relative;
 }
 
+.slot-number-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: $gray-200;
+  left: 0.75rem;
+  top: 0.75rem;
+  border-radius: 50%;
+}
+
 .slot-number {
   display: inline-block;
   font-size: 0.85em;
   font-weight: bold;
-}
+  position: absolute;
+} 
 
 .slot-image {
-  height: 15rem;
-  width: auto;
+  height: 10rem;
+  object-fit: cover;
+  object-position: 100px 10%;
+  opacity: 0.1;
+  width: 100%;
+  filter: grayscale(1);
+  background-image: (240deg, $gray-700, transparent)
+}
+
+.slot-mini-image {
+  height: 8.8rem;
+  position: absolute;
+  left: 1rem;
+  top: 1.5rem;
 }
 
 .slot-links {

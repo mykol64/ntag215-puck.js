@@ -50,9 +50,6 @@ module.exports = (env, argv) => {
               loader: MiniCssExtractPlugin.loader
             },
             {
-              loader: "style-loader"
-            },
-            {
               loader: "css-loader" // translates CSS into CommonJS
             },
             {

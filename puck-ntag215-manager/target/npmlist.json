@@ -1,0 +1,1 @@
+{"version":"0.0.0","name":"puck-ntag215-manager","dependencies":{"ansi-regex":{"version":"5.0.1"},"emoji-regex":{"version":"8.0.0"},"is-fullwidth-code-point":{"version":"3.0.0"},"string-width":{"version":"4.2.3"},"strip-ansi":{"version":"6.0.1"},"usb":{"version":"1.9.2"}}}

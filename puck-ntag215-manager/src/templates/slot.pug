@@ -1,10 +1,12 @@
 .card.slot
-  .slot-number=slot + 1
+  .slot-number-container
+    .slot-number=slot + 1
   .slot-summary.d-grid
     if (name != "Unknown")
       if image 
         div 
           img(src=image).slot-image.card-img-top
+          img(src=image).slot-mini-image
       div.card-body
         if name
             h5.card-title=name

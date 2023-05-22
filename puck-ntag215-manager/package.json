@@ -56,7 +56,6 @@
     "pug-loader": "github:DanTheMan827/pug-loader",
     "sass": "^1.62.1",
     "sass-loader": "^10.4.1",
-    "style-loader": "^3.3.3",
     "terser": "^5.15.0",
     "tslint": "^6.1.3",
     "typescript": "^4.8.2",
