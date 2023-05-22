@@ -1,48 +1,52 @@
 .card.slot
   .slot-number=slot + 1
   .slot-summary.d-grid
-    if image 
-      div 
-        img(src=image).slot-image.card-img-top
-    div.card-body
-      if name
-          h5.card-title=name
-    ul.list-group.list-group-flush
-      if id
-        li.list-group-item.small
-          b="ID: "
-          span=id
-      if gameseries
-        li.list-group-item.small
-          b="Game Series: "
-          span=gameseries
-      if amiiboseries
-        li.list-group-item.small
-          b="Amiibo Series: "
-          span=amiiboseries
-      if type
-        li.list-group-item.small
-          b="Type: "
-          span=type
-      
-
+    if (name != "Unknown")
+      if image 
+        div 
+          img(src=image).slot-image.card-img-top
+      div.card-body
+        if name
+            h5.card-title=name
+      ul.list-group.list-group-flush
+        if id
+          li.list-group-item.small
+            b="ID: "
+            span=id
+        if gameseries
+          li.list-group-item.small
+            b="Game Series: "
+            span=gameseries
+        if amiiboseries
+          li.list-group-item.small
+            b="Amiibo Series: "
+            span=amiiboseries
+        if type
+          li.list-group-item.small
+            b="Type: "
+            span=type
+        
+        .d-grid.p-3
+          button.btn.btn-primary.mb-3.slot-select-link Select
+          .dropdown.d-grid
+            button.btn.btn-secondary.dropdown-toggle(type="button", data-bs-toggle="dropdown", aria-expanded="false").
+              Options  
+            ul.dropdown-menu
+              li
+                button.dropdown-item.slot-download-link(type="button") Download
+              li
+                button.dropdown-item.slot-upload-link(type="button") Upload
+              li
+                button.dropdown-item.slot-clear-link(type="button") Clear
+    else
+      div.card-body
+        if name
+          p.small
+            b="Name: "
+            span=name
+        if id
+          p.small
+            b="ID: "
+            span=id
       .d-grid.p-3
-        button.btn.btn-block.btn-primary.mb-3.slot-select-link Select
-        //- button.btn.btn-default.btn-block.dropdown-toggle(type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id=`dropdownMenu${slot + 1}`)=`Options ${slot + 1} `
-        //-   span.caret
-      
-        //- ul.slot-links.dropdown-menu(aria-labelledby=`\"dropdownMenu${slot + 1}\"`)
-        //-   li: a.slot-download-link(href='#') Download
-        //-   li: a.slot-upload-link(href='#') Upload
-        //-   li: a.slot-clear-link(href="#") Clear
-
-        .dropdown.d-grid
-          button.btn.btn-secondary.dropdown-toggle(type="button", data-bs-toggle="dropdown", aria-expanded="false").
-            Options  
-          ul.dropdown-menu
-            li
-              button.dropdown-item.slot-download-link(type="button") Download
-            li
-              button.dropdown-item.slot-upload-link(type="button") Upload
-            li
-              button.dropdown-item.slot-clear-link(type="button") Clear
+        button.btn.btn-primary.slot-upload-link Upload
