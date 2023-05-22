@@ -10,7 +10,7 @@ mapping = {
     "Animal Crossing":"acc",
     "8-bit Mario":"smb",
     "Skylanders":"other",
-    "Legend Of Zelda":"loz",
+    "Legend of Zelda":"loz",
     "Shovel Knight":"other",
     "Kirby":"other",
     "Pokemon":"other",

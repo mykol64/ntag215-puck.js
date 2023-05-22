@@ -1,5 +1,8 @@
 #slotsContainer {
   display: none;
+  @include media-breakpoint-up(md) { 
+    grid-template-columns: 1fr 1fr; 
+  }
 }
 
 .slot {
@@ -41,6 +44,7 @@
   position: absolute;
   left: 1rem;
   top: 1.5rem;
+  filter: drop-shadow(12px 4px 25px rgba(0,0,0,0.30))
 }
 
 .slot-links {

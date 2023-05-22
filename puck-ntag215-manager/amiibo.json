@@ -38,7 +38,7 @@
       "gameSeries": "Super Mario", 
       "head": "00000000", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00000000-003c0102.png", 
-      "name": "Mario - Gold Edition", 
+      "name": "Mario ⋅ Gold Edition", 
       "release": {
         "au": "2015-06-25", 
         "eu": null, 
@@ -54,7 +54,7 @@
       "gameSeries": "Super Mario", 
       "head": "00000000", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00000000-003d0102.png", 
-      "name": "Mario - Silver Edition", 
+      "name": "Mario ⋅ Silver Edition", 
       "release": {
         "au": "2015-05-30", 
         "eu": null, 
@@ -102,7 +102,7 @@
       "gameSeries": "Super Mario", 
       "head": "00000000", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00000000-03710102.png", 
-      "name": "Mario - Wedding", 
+      "name": "Mario ⋅ Wedding", 
       "release": {
         "au": "2017-10-27", 
         "eu": "2017-10-27", 
@@ -118,7 +118,7 @@
       "gameSeries": "Super Mario", 
       "head": "00000003", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00000003-039bff02.png", 
-      "name": "Mario - Power Up Band", 
+      "name": "Mario ⋅ Power Up Band", 
       "release": {
         "au": null, 
         "eu": null, 
@@ -150,7 +150,7 @@
       "gameSeries": "Super Mario", 
       "head": "00000300", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00000300-03a60102.png", 
-      "name": "Mario - Cat", 
+      "name": "Mario ⋅ Cat", 
       "release": {
         "au": "2021-02-12", 
         "eu": "2021-02-12", 
@@ -198,7 +198,7 @@
       "gameSeries": "Super Mario", 
       "head": "00010003", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00010003-039cff02.png", 
-      "name": "Luigi - Power Up Band", 
+      "name": "Luigi ⋅ Power Up Band", 
       "release": {
         "au": null, 
         "eu": null, 
@@ -246,7 +246,7 @@
       "gameSeries": "Super Mario", 
       "head": "00020000", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00020000-03720102.png", 
-      "name": "Peach - Wedding", 
+      "name": "Peach ⋅ Wedding", 
       "release": {
         "au": "2017-10-27", 
         "eu": "2017-10-27", 
@@ -262,7 +262,7 @@
       "gameSeries": "Super Mario", 
       "head": "00020003", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00020003-039dff02.png", 
-      "name": "Peach - Power Up Band", 
+      "name": "Peach ⋅ Power Up Band", 
       "release": {
         "au": null, 
         "eu": null, 
@@ -278,7 +278,7 @@
       "gameSeries": "Super Mario", 
       "head": "00020100", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00020100-03a70102.png", 
-      "name": "Peach - Cat", 
+      "name": "Peach ⋅ Cat", 
       "release": {
         "au": "2021-02-12", 
         "eu": "2021-02-12", 
@@ -326,7 +326,7 @@
       "gameSeries": "Super Mario", 
       "head": "00030003", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00030003-039fff02.png", 
-      "name": "Yoshi - Power Up Band", 
+      "name": "Yoshi ⋅ Power Up Band", 
       "release": {
         "au": null, 
         "eu": null, 
@@ -470,7 +470,7 @@
       "gameSeries": "Super Mario", 
       "head": "00050000", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00050000-03730102.png", 
-      "name": "Bowser - Wedding", 
+      "name": "Bowser ⋅ Wedding", 
       "release": {
         "au": "2017-10-27", 
         "eu": "2017-10-27", 
@@ -646,7 +646,7 @@
       "gameSeries": "Super Mario", 
       "head": "000a0003", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_000a0003-03a0ff02.png", 
-      "name": "Toad - Power Up Band", 
+      "name": "Toad ⋅ Power Up Band", 
       "release": {
         "au": null, 
         "eu": null, 
@@ -694,7 +694,7 @@
       "gameSeries": "Super Mario", 
       "head": "00130003", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00130003-039eff02.png", 
-      "name": "Daisy - Power Up Band", 
+      "name": "Daisy ⋅ Power Up Band", 
       "release": {
         "au": null, 
         "eu": null, 
@@ -838,7 +838,7 @@
       "gameSeries": "The Legend of Zelda", 
       "head": "01000000", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01000000-034b0902.png", 
-      "name": "Link - Ocarina of Time", 
+      "name": "Link ⋅ Ocarina of Time", 
       "release": {
         "au": "2016-12-03", 
         "eu": "2016-12-02", 
@@ -854,7 +854,7 @@
       "gameSeries": "The Legend of Zelda", 
       "head": "01000000", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01000000-034c0902.png", 
-      "name": "Link - Majora's Mask", 
+      "name": "Link ⋅ Majora's Mask", 
       "release": {
         "au": "2017-06-24", 
         "eu": "2017-06-23", 
@@ -870,7 +870,7 @@
       "gameSeries": "The Legend of Zelda", 
       "head": "01000000", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01000000-034d0902.png", 
-      "name": "Link - Twilight Princess", 
+      "name": "Link ⋅ Twilight Princess", 
       "release": {
         "au": "2017-06-24", 
         "eu": "2017-06-23", 
@@ -886,7 +886,7 @@
       "gameSeries": "The Legend of Zelda", 
       "head": "01000000", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01000000-034e0902.png", 
-      "name": "Link - Skyward Sword", 
+      "name": "Link ⋅ Skyward Sword", 
       "release": {
         "au": "2017-06-24", 
         "eu": "2017-06-23", 
@@ -918,7 +918,7 @@
       "gameSeries": "The Legend of Zelda", 
       "head": "01000000", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01000000-03530902.png", 
-      "name": "Link - Archer", 
+      "name": "Link ⋅ Archer", 
       "release": {
         "au": "2017-03-03", 
         "eu": "2017-03-03", 
@@ -934,7 +934,7 @@
       "gameSeries": "The Legend of Zelda", 
       "head": "01000000", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01000000-03540902.png", 
-      "name": "Link - Rider", 
+      "name": "Link ⋅ Rider", 
       "release": {
         "au": "2017-03-03", 
         "eu": "2017-03-03", 
@@ -966,7 +966,7 @@
       "gameSeries": "The Legend of Zelda", 
       "head": "01000000", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01000000-03990902.png", 
-      "name": "Link - Link's Awakening", 
+      "name": "Link ⋅ Link's Awakening", 
       "release": {
         "au": "2019-09-20", 
         "eu": "2019-09-20", 
@@ -998,7 +998,7 @@
       "gameSeries": "The Legend of Zelda", 
       "head": "01000100", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01000100-03500902.png", 
-      "name": "Toon Link - The Wind Waker", 
+      "name": "Toon Link ⋅ The Wind Waker", 
       "release": {
         "au": "2016-12-03", 
         "eu": "2016-12-02", 
@@ -1030,7 +1030,7 @@
       "gameSeries": "The Legend of Zelda", 
       "head": "01010000", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01010000-03520902.png", 
-      "name": "Toon Zelda - The Wind Waker", 
+      "name": "Toon Zelda ⋅ The Wind Waker", 
       "release": {
         "au": "2016-12-03", 
         "eu": "2016-12-02", 
@@ -1238,7 +1238,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "01810000", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01810000-024b0502.png", 
-      "name": "Isabelle - Summer Outfit", 
+      "name": "Isabelle ⋅ Summer Outfit", 
       "release": {
         "au": "2016-03-19", 
         "eu": "2016-03-18", 
@@ -1286,7 +1286,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "01810001", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01810001-01d40502.png", 
-      "name": "Isabelle - Character Parfait", 
+      "name": "Isabelle ⋅ Character Parfait", 
       "release": {
         "au": null, 
         "eu": null, 
@@ -1302,7 +1302,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "01810100", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01810100-023f0502.png", 
-      "name": "Isabelle - Winter Outfit", 
+      "name": "Isabelle ⋅ Winter Outfit", 
       "release": {
         "au": "2015-11-21", 
         "eu": "2015-11-20", 
@@ -1318,7 +1318,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "01810101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01810101-00b40502.png", 
-      "name": "Isabelle - Winter", 
+      "name": "Isabelle ⋅ Winter", 
       "release": {
         "au": "2015-11-21", 
         "eu": "2015-11-20", 
@@ -1334,7 +1334,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "01810201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01810201-011a0502.png", 
-      "name": "Isabelle - Kimono", 
+      "name": "Isabelle ⋅ Kimono", 
       "release": {
         "au": "2016-03-19", 
         "eu": "2016-03-18", 
@@ -1350,7 +1350,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "01810301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01810301-01700502.png", 
-      "name": "Isabelle - Dress", 
+      "name": "Isabelle ⋅ Dress", 
       "release": {
         "au": "2016-06-18", 
         "eu": "2016-06-17", 
@@ -1382,7 +1382,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "01810501", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01810501-03bf0502.png", 
-      "name": "Isabelle - Sweater", 
+      "name": "Isabelle ⋅ Sweater", 
       "release": {
         "au": "2021-11-05", 
         "eu": "2021-11-05", 
@@ -1430,7 +1430,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "01820001", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01820001-01d80502.png", 
-      "name": "K. K. Slider - Pikopuri", 
+      "name": "K. K. Slider ⋅ Pikopuri", 
       "release": {
         "au": null, 
         "eu": null, 
@@ -1510,7 +1510,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "01830101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01830101-010e0502.png", 
-      "name": "Tom Nook - Jacket", 
+      "name": "Tom Nook ⋅ Jacket", 
       "release": {
         "au": "2016-03-19", 
         "eu": "2016-03-18", 
@@ -1542,7 +1542,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "01830301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01830301-03be0502.png", 
-      "name": "Tom Nook - Coat", 
+      "name": "Tom Nook ⋅ Coat", 
       "release": {
         "au": "2021-11-05", 
         "eu": "2021-11-05", 
@@ -1606,7 +1606,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "01850201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01850201-01170502.png", 
-      "name": "Timmy - Full Apron", 
+      "name": "Timmy ⋅ Full Apron", 
       "release": {
         "au": "2016-03-19", 
         "eu": "2016-03-18", 
@@ -1622,7 +1622,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "01850401", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01850401-01790502.png", 
-      "name": "Timmy - Suit", 
+      "name": "Timmy ⋅ Suit", 
       "release": {
         "au": "2016-06-18", 
         "eu": null, 
@@ -1638,7 +1638,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "01860101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01860101-00af0502.png", 
-      "name": "Tommy - Uniform", 
+      "name": "Tommy ⋅ Uniform", 
       "release": {
         "au": "2015-11-21", 
         "eu": "2015-11-20", 
@@ -1654,7 +1654,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "01860301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01860301-01750502.png", 
-      "name": "Tommy - Suit", 
+      "name": "Tommy ⋅ Suit", 
       "release": {
         "au": "2016-06-18", 
         "eu": null, 
@@ -1878,7 +1878,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "018c0101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_018c0101-01180502.png", 
-      "name": "Digby - Raincoat", 
+      "name": "Digby ⋅ Raincoat", 
       "release": {
         "au": "2016-03-19", 
         "eu": "2016-03-18", 
@@ -1958,7 +1958,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "018e0101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_018e0101-01780502.png", 
-      "name": "Resetti - Without Hat", 
+      "name": "Resetti ⋅ Without Hat", 
       "release": {
         "au": "2016-06-18", 
         "eu": null, 
@@ -1990,7 +1990,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "018f0101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_018f0101-01190502.png", 
-      "name": "Don Resetti - Without Hat", 
+      "name": "Don Resetti ⋅ Without Hat", 
       "release": {
         "au": "2016-03-19", 
         "eu": "2016-03-18", 
@@ -2550,7 +2550,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "01a80101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01a80101-017e0502.png", 
-      "name": "Redd - Shirt", 
+      "name": "Redd ⋅ Shirt", 
       "release": {
         "au": "2016-06-18", 
         "eu": null, 
@@ -2710,7 +2710,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "01b10101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01b10101-017b0502.png", 
-      "name": "Shrunk - Loud Jacket", 
+      "name": "Shrunk ⋅ Loud Jacket", 
       "release": {
         "au": "2016-06-18", 
         "eu": null, 
@@ -2822,7 +2822,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "01c10101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01c10101-017a0502.png", 
-      "name": "Lottie - Black Skirt And Bow", 
+      "name": "Lottie ⋅ Black Skirt And Bow", 
       "release": {
         "au": "2016-06-18", 
         "eu": null, 
@@ -2838,7 +2838,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "01c10201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01c10201-03bb0502.png", 
-      "name": "Lottie - Island", 
+      "name": "Lottie ⋅ Island", 
       "release": {
         "au": "2021-11-05", 
         "eu": "2021-11-05", 
@@ -3542,7 +3542,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "025f0001", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_025f0001-01d70502.png", 
-      "name": "Rosie - Amiibo Festival", 
+      "name": "Rosie ⋅ Amiibo Festival", 
       "release": {
         "au": "2015-11-21", 
         "eu": "2015-11-20", 
@@ -3958,7 +3958,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "02820001", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_02820001-01d60502.png", 
-      "name": "Stitches - Amiibo Festival", 
+      "name": "Stitches ⋅ Amiibo Festival", 
       "release": {
         "au": "2015-11-21", 
         "eu": "2015-11-20", 
@@ -4646,7 +4646,7 @@
       "gameSeries": "Animal Crossing", 
       "head": "02ea0001", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_02ea0001-01d50502.png", 
-      "name": "Goldie - Amiibo Festival", 
+      "name": "Goldie ⋅ Amiibo Festival", 
       "release": {
         "au": "2015-11-21", 
         "eu": "2015-11-20", 
@@ -9206,7 +9206,7 @@
       "gameSeries": "Metroid", 
       "head": "05c00000", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_05c00000-04121302.png", 
-      "name": "Samus - Metroid Dread", 
+      "name": "Samus ⋅ Metroid Dread", 
       "release": {
         "au": "2021-10-08", 
         "eu": "2021-11-05", 
@@ -9446,7 +9446,7 @@
       "gameSeries": "Classic Nintendo", 
       "head": "07810000", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_07810000-002e0002.png", 
-      "name": "R.O.B. - Famicom", 
+      "name": "R.O.B. ⋅ Famicom", 
       "release": {
         "au": "2016-03-19", 
         "eu": "2016-03-18", 
@@ -9462,7 +9462,7 @@
       "gameSeries": "Classic Nintendo", 
       "head": "07810000", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_07810000-00330002.png", 
-      "name": "R.O.B. - NES", 
+      "name": "R.O.B. ⋅ NES", 
       "release": {
         "au": "2015-09-26", 
         "eu": "2015-09-25", 
@@ -9574,7 +9574,7 @@
       "gameSeries": "Splatoon", 
       "head": "08000100", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_08000100-025f0402.png", 
-      "name": "Inkling Girl - Lime Green", 
+      "name": "Inkling Girl ⋅ Lime Green", 
       "release": {
         "au": "2016-07-09", 
         "eu": "2016-07-08", 
@@ -9590,7 +9590,7 @@
       "gameSeries": "Splatoon", 
       "head": "08000100", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_08000100-03690402.png", 
-      "name": "Inkling Girl - Neon Pink", 
+      "name": "Inkling Girl ⋅ Neon Pink", 
       "release": {
         "au": "2017-07-21", 
         "eu": "2017-07-21", 
@@ -9622,7 +9622,7 @@
       "gameSeries": "Splatoon", 
       "head": "08000100", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_08000100-04150402.png", 
-      "name": "Inkling - Yellow", 
+      "name": "Inkling ⋅ Yellow", 
       "release": {
         "au": "2022-11-11", 
         "eu": "2022-11-11", 
@@ -9654,7 +9654,7 @@
       "gameSeries": "Splatoon", 
       "head": "08000200", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_08000200-02600402.png", 
-      "name": "Inkling Boy - Purple", 
+      "name": "Inkling Boy ⋅ Purple", 
       "release": {
         "au": "2016-07-09", 
         "eu": "2016-07-08", 
@@ -9670,7 +9670,7 @@
       "gameSeries": "Splatoon", 
       "head": "08000200", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_08000200-036a0402.png", 
-      "name": "Inkling Boy - Neon Green", 
+      "name": "Inkling Boy ⋅ Neon Green", 
       "release": {
         "au": "2017-07-21", 
         "eu": "2017-07-21", 
@@ -9702,7 +9702,7 @@
       "gameSeries": "Splatoon", 
       "head": "08000300", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_08000300-02610402.png", 
-      "name": "Inkling Squid - Orange", 
+      "name": "Inkling Squid ⋅ Orange", 
       "release": {
         "au": "2016-07-09", 
         "eu": "2016-07-08", 
@@ -9718,7 +9718,7 @@
       "gameSeries": "Splatoon", 
       "head": "08000300", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_08000300-036b0402.png", 
-      "name": "Inkling Squid - Neon Purple", 
+      "name": "Inkling Squid ⋅ Neon Purple", 
       "release": {
         "au": "2017-07-21", 
         "eu": "2017-07-21", 
@@ -9830,7 +9830,7 @@
       "gameSeries": "Splatoon", 
       "head": "08050200", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_08050200-041b0402.png", 
-      "name": "Octoling - Blue", 
+      "name": "Octoling ⋅ Blue", 
       "release": {
         "au": "2022-11-11", 
         "eu": "2022-11-11", 
@@ -9878,7 +9878,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c00101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c00101-02690e02.png", 
-      "name": "Mario - Soccer", 
+      "name": "Mario ⋅ Soccer", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -9894,7 +9894,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c00201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c00201-026a0e02.png", 
-      "name": "Mario - Baseball", 
+      "name": "Mario ⋅ Baseball", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -9910,7 +9910,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c00301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c00301-026b0e02.png", 
-      "name": "Mario - Tennis", 
+      "name": "Mario ⋅ Tennis", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -9926,7 +9926,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c00401", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c00401-026c0e02.png", 
-      "name": "Mario - Golf", 
+      "name": "Mario ⋅ Golf", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -9942,7 +9942,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c00501", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c00501-026d0e02.png", 
-      "name": "Mario - Horse Racing", 
+      "name": "Mario ⋅ Horse Racing", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -9958,7 +9958,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c10101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c10101-026e0e02.png", 
-      "name": "Luigi - Soccer", 
+      "name": "Luigi ⋅ Soccer", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -9974,7 +9974,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c10201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c10201-026f0e02.png", 
-      "name": "Luigi - Baseball", 
+      "name": "Luigi ⋅ Baseball", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -9990,7 +9990,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c10301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c10301-02700e02.png", 
-      "name": "Luigi - Tennis", 
+      "name": "Luigi ⋅ Tennis", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10006,7 +10006,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c10401", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c10401-02710e02.png", 
-      "name": "Luigi - Golf", 
+      "name": "Luigi ⋅ Golf", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10022,7 +10022,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c10501", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c10501-02720e02.png", 
-      "name": "Luigi - Horse Racing", 
+      "name": "Luigi ⋅ Horse Racing", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10038,7 +10038,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c20101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c20101-02730e02.png", 
-      "name": "Peach - Soccer", 
+      "name": "Peach ⋅ Soccer", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10054,7 +10054,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c20201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c20201-02740e02.png", 
-      "name": "Peach - Baseball", 
+      "name": "Peach ⋅ Baseball", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10070,7 +10070,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c20301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c20301-02750e02.png", 
-      "name": "Peach - Tennis", 
+      "name": "Peach ⋅ Tennis", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10086,7 +10086,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c20401", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c20401-02760e02.png", 
-      "name": "Peach - Golf", 
+      "name": "Peach ⋅ Golf", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10102,7 +10102,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c20501", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c20501-02770e02.png", 
-      "name": "Peach - Horse Racing", 
+      "name": "Peach ⋅ Horse Racing", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10118,7 +10118,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c30101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c30101-02780e02.png", 
-      "name": "Daisy - Soccer", 
+      "name": "Daisy ⋅ Soccer", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10134,7 +10134,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c30201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c30201-02790e02.png", 
-      "name": "Daisy - Baseball", 
+      "name": "Daisy ⋅ Baseball", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10150,7 +10150,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c30301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c30301-027a0e02.png", 
-      "name": "Daisy - Tennis", 
+      "name": "Daisy ⋅ Tennis", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10166,7 +10166,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c30401", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c30401-027b0e02.png", 
-      "name": "Daisy - Golf", 
+      "name": "Daisy ⋅ Golf", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10182,7 +10182,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c30501", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c30501-027c0e02.png", 
-      "name": "Daisy - Horse Racing", 
+      "name": "Daisy ⋅ Horse Racing", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10198,7 +10198,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c40101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c40101-027d0e02.png", 
-      "name": "Yoshi - Soccer", 
+      "name": "Yoshi ⋅ Soccer", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10214,7 +10214,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c40201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c40201-027e0e02.png", 
-      "name": "Yoshi - Baseball", 
+      "name": "Yoshi ⋅ Baseball", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10230,7 +10230,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c40301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c40301-027f0e02.png", 
-      "name": "Yoshi - Tennis", 
+      "name": "Yoshi ⋅ Tennis", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10246,7 +10246,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c40401", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c40401-02800e02.png", 
-      "name": "Yoshi - Golf", 
+      "name": "Yoshi ⋅ Golf", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10262,7 +10262,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c40501", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c40501-02810e02.png", 
-      "name": "Yoshi - Horse Racing", 
+      "name": "Yoshi ⋅ Horse Racing", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10278,7 +10278,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c50101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c50101-02820e02.png", 
-      "name": "Wario - Soccer", 
+      "name": "Wario ⋅ Soccer", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10294,7 +10294,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c50201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c50201-02830e02.png", 
-      "name": "Wario - Baseball", 
+      "name": "Wario ⋅ Baseball", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10310,7 +10310,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c50301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c50301-02840e02.png", 
-      "name": "Wario - Tennis", 
+      "name": "Wario ⋅ Tennis", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10326,7 +10326,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c50401", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c50401-02850e02.png", 
-      "name": "Wario - Golf", 
+      "name": "Wario ⋅ Golf", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10342,7 +10342,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c50501", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c50501-02860e02.png", 
-      "name": "Wario - Horse Racing", 
+      "name": "Wario ⋅ Horse Racing", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10358,7 +10358,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c60101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c60101-02870e02.png", 
-      "name": "Waluigi - Soccer", 
+      "name": "Waluigi ⋅ Soccer", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10374,7 +10374,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c60201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c60201-02880e02.png", 
-      "name": "Waluigi - Baseball", 
+      "name": "Waluigi ⋅ Baseball", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10390,7 +10390,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c60301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c60301-02890e02.png", 
-      "name": "Waluigi - Tennis", 
+      "name": "Waluigi ⋅ Tennis", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10406,7 +10406,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c60401", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c60401-028a0e02.png", 
-      "name": "Waluigi - Golf", 
+      "name": "Waluigi ⋅ Golf", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10422,7 +10422,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c60501", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c60501-028b0e02.png", 
-      "name": "Waluigi - Horse Racing", 
+      "name": "Waluigi ⋅ Horse Racing", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10438,7 +10438,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c70101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c70101-028c0e02.png", 
-      "name": "Donkey Kong - Soccer", 
+      "name": "Donkey Kong ⋅ Soccer", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10454,7 +10454,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c70201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c70201-028d0e02.png", 
-      "name": "Donkey Kong - Baseball", 
+      "name": "Donkey Kong ⋅ Baseball", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10470,7 +10470,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c70301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c70301-028e0e02.png", 
-      "name": "Donkey Kong - Tennis", 
+      "name": "Donkey Kong ⋅ Tennis", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10486,7 +10486,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c70401", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c70401-028f0e02.png", 
-      "name": "Donkey Kong - Golf", 
+      "name": "Donkey Kong ⋅ Golf", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10502,7 +10502,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c70501", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c70501-02900e02.png", 
-      "name": "Donkey Kong - Horse Racing", 
+      "name": "Donkey Kong ⋅ Horse Racing", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10518,7 +10518,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c80101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c80101-02910e02.png", 
-      "name": "Diddy Kong - Soccer", 
+      "name": "Diddy Kong ⋅ Soccer", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10534,7 +10534,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c80201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c80201-02920e02.png", 
-      "name": "Diddy Kong - Baseball", 
+      "name": "Diddy Kong ⋅ Baseball", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10550,7 +10550,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c80301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c80301-02930e02.png", 
-      "name": "Diddy Kong - Tennis", 
+      "name": "Diddy Kong ⋅ Tennis", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10566,7 +10566,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c80401", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c80401-02940e02.png", 
-      "name": "Diddy Kong - Golf", 
+      "name": "Diddy Kong ⋅ Golf", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10582,7 +10582,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c80501", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c80501-02950e02.png", 
-      "name": "Diddy Kong - Horse Racing", 
+      "name": "Diddy Kong ⋅ Horse Racing", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10598,7 +10598,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c90101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c90101-02960e02.png", 
-      "name": "Bowser - Soccer", 
+      "name": "Bowser ⋅ Soccer", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10614,7 +10614,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c90201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c90201-02970e02.png", 
-      "name": "Bowser - Baseball", 
+      "name": "Bowser ⋅ Baseball", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10630,7 +10630,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c90301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c90301-02980e02.png", 
-      "name": "Bowser - Tennis", 
+      "name": "Bowser ⋅ Tennis", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10646,7 +10646,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c90401", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c90401-02990e02.png", 
-      "name": "Bowser - Golf", 
+      "name": "Bowser ⋅ Golf", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10662,7 +10662,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09c90501", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c90501-029a0e02.png", 
-      "name": "Bowser - Horse Racing", 
+      "name": "Bowser ⋅ Horse Racing", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10678,7 +10678,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09ca0101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09ca0101-029b0e02.png", 
-      "name": "Bowser Jr. - Soccer", 
+      "name": "Bowser Jr. ⋅ Soccer", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10694,7 +10694,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09ca0201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09ca0201-029c0e02.png", 
-      "name": "Bowser Jr. - Baseball", 
+      "name": "Bowser Jr. ⋅ Baseball", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10710,7 +10710,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09ca0301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09ca0301-029d0e02.png", 
-      "name": "Bowser Jr. - Tennis", 
+      "name": "Bowser Jr. ⋅ Tennis", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10726,7 +10726,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09ca0401", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09ca0401-029e0e02.png", 
-      "name": "Bowser Jr. - Golf", 
+      "name": "Bowser Jr. ⋅ Golf", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10742,7 +10742,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09ca0501", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09ca0501-029f0e02.png", 
-      "name": "Bowser Jr. - Horse Racing", 
+      "name": "Bowser Jr. ⋅ Horse Racing", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10758,7 +10758,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09cb0101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cb0101-02a00e02.png", 
-      "name": "Boo - Soccer", 
+      "name": "Boo ⋅ Soccer", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10774,7 +10774,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09cb0201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cb0201-02a10e02.png", 
-      "name": "Boo - Baseball", 
+      "name": "Boo ⋅ Baseball", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10790,7 +10790,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09cb0301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cb0301-02a20e02.png", 
-      "name": "Boo - Tennis", 
+      "name": "Boo ⋅ Tennis", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10806,7 +10806,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09cb0401", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cb0401-02a30e02.png", 
-      "name": "Boo - Golf", 
+      "name": "Boo ⋅ Golf", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10822,7 +10822,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09cb0501", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cb0501-02a40e02.png", 
-      "name": "Boo - Horse Racing", 
+      "name": "Boo ⋅ Horse Racing", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10838,7 +10838,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09cc0101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cc0101-02a50e02.png", 
-      "name": "Baby Mario - Soccer", 
+      "name": "Baby Mario ⋅ Soccer", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10854,7 +10854,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09cc0201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cc0201-02a60e02.png", 
-      "name": "Baby Mario - Baseball", 
+      "name": "Baby Mario ⋅ Baseball", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10870,7 +10870,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09cc0301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cc0301-02a70e02.png", 
-      "name": "Baby Mario - Tennis", 
+      "name": "Baby Mario ⋅ Tennis", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10886,7 +10886,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09cc0401", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cc0401-02a80e02.png", 
-      "name": "Baby Mario - Golf", 
+      "name": "Baby Mario ⋅ Golf", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10902,7 +10902,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09cc0501", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cc0501-02a90e02.png", 
-      "name": "Baby Mario - Horse Racing", 
+      "name": "Baby Mario ⋅ Horse Racing", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10918,7 +10918,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09cd0101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cd0101-02aa0e02.png", 
-      "name": "Baby Luigi - Soccer", 
+      "name": "Baby Luigi ⋅ Soccer", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10934,7 +10934,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09cd0201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cd0201-02ab0e02.png", 
-      "name": "Baby Luigi - Baseball", 
+      "name": "Baby Luigi ⋅ Baseball", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10950,7 +10950,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09cd0301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cd0301-02ac0e02.png", 
-      "name": "Baby Luigi - Tennis", 
+      "name": "Baby Luigi ⋅ Tennis", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10966,7 +10966,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09cd0401", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cd0401-02ad0e02.png", 
-      "name": "Baby Luigi - Golf", 
+      "name": "Baby Luigi ⋅ Golf", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10982,7 +10982,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09cd0501", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cd0501-02ae0e02.png", 
-      "name": "Baby Luigi - Horse Racing", 
+      "name": "Baby Luigi ⋅ Horse Racing", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -10998,7 +10998,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09ce0101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09ce0101-02af0e02.png", 
-      "name": "Birdo - Soccer", 
+      "name": "Birdo ⋅ Soccer", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -11014,7 +11014,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09ce0201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09ce0201-02b00e02.png", 
-      "name": "Birdo - Baseball", 
+      "name": "Birdo ⋅ Baseball", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -11030,7 +11030,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09ce0301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09ce0301-02b10e02.png", 
-      "name": "Birdo - Tennis", 
+      "name": "Birdo ⋅ Tennis", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -11046,7 +11046,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09ce0401", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09ce0401-02b20e02.png", 
-      "name": "Birdo - Golf", 
+      "name": "Birdo ⋅ Golf", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -11062,7 +11062,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09ce0501", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09ce0501-02b30e02.png", 
-      "name": "Birdo - Horse Racing", 
+      "name": "Birdo ⋅ Horse Racing", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -11078,7 +11078,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09cf0101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cf0101-02b40e02.png", 
-      "name": "Rosalina - Soccer", 
+      "name": "Rosalina ⋅ Soccer", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -11094,7 +11094,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09cf0201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cf0201-02b50e02.png", 
-      "name": "Rosalina - Baseball", 
+      "name": "Rosalina ⋅ Baseball", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -11110,7 +11110,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09cf0301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cf0301-02b60e02.png", 
-      "name": "Rosalina - Tennis", 
+      "name": "Rosalina ⋅ Tennis", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -11126,7 +11126,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09cf0401", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cf0401-02b70e02.png", 
-      "name": "Rosalina - Golf", 
+      "name": "Rosalina ⋅ Golf", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -11142,7 +11142,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09cf0501", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cf0501-02b80e02.png", 
-      "name": "Rosalina - Horse Racing", 
+      "name": "Rosalina ⋅ Horse Racing", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -11158,7 +11158,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09d00101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09d00101-02b90e02.png", 
-      "name": "Metal Mario - Soccer", 
+      "name": "Metal Mario ⋅ Soccer", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -11174,7 +11174,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09d00201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09d00201-02ba0e02.png", 
-      "name": "Metal Mario - Baseball", 
+      "name": "Metal Mario ⋅ Baseball", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -11190,7 +11190,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09d00301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09d00301-02bb0e02.png", 
-      "name": "Metal Mario - Tennis", 
+      "name": "Metal Mario ⋅ Tennis", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -11206,7 +11206,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09d00401", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09d00401-02bc0e02.png", 
-      "name": "Metal Mario - Golf", 
+      "name": "Metal Mario ⋅ Golf", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -11222,7 +11222,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09d00501", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09d00501-02bd0e02.png", 
-      "name": "Metal Mario - Horse Racing", 
+      "name": "Metal Mario ⋅ Horse Racing", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -11238,7 +11238,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09d10101", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09d10101-02be0e02.png", 
-      "name": "Pink Gold Peach - Soccer", 
+      "name": "Pink Gold Peach ⋅ Soccer", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -11254,7 +11254,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09d10201", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09d10201-02bf0e02.png", 
-      "name": "Pink Gold Peach - Baseball", 
+      "name": "Pink Gold Peach ⋅ Baseball", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -11270,7 +11270,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09d10301", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09d10301-02c00e02.png", 
-      "name": "Pink Gold Peach - Tennis", 
+      "name": "Pink Gold Peach ⋅ Tennis", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -11286,7 +11286,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09d10401", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09d10401-02c10e02.png", 
-      "name": "Pink Gold Peach - Golf", 
+      "name": "Pink Gold Peach ⋅ Golf", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -11302,7 +11302,7 @@
       "gameSeries": "Mario Sports Superstars", 
       "head": "09d10501", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09d10501-02c20e02.png", 
-      "name": "Pink Gold Peach - Horse Racing", 
+      "name": "Pink Gold Peach ⋅ Horse Racing", 
       "release": {
         "au": "2017-03-11", 
         "eu": "2017-03-10", 
@@ -12294,7 +12294,7 @@
       "gameSeries": "Fire Emblem", 
       "head": "21050100", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_21050100-03630002.png", 
-      "name": "Corrin - Player 2", 
+      "name": "Corrin ⋅ Player 2", 
       "release": {
         "au": "2017-07-22", 
         "eu": "2017-07-21", 
@@ -12502,7 +12502,7 @@
       "gameSeries": "Bayonetta", 
       "head": "32400100", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_32400100-03640002.png", 
-      "name": "Bayonetta - Player 2", 
+      "name": "Bayonetta ⋅ Player 2", 
       "release": {
         "au": "2017-07-22", 
         "eu": "2017-07-21", 
@@ -12582,7 +12582,7 @@
       "gameSeries": "Megaman", 
       "head": "34800000", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_34800000-02580002.png", 
-      "name": "Mega Man - Gold Edition", 
+      "name": "Mega Man ⋅ Gold Edition", 
       "release": {
         "au": null, 
         "eu": null, 
@@ -12646,7 +12646,7 @@
       "gameSeries": "Monster Hunter", 
       "head": "35000100", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_35000100-02e10f02.png", 
-      "name": "One-Eyed Rathalos and Rider - Male", 
+      "name": "One-Eyed Rathalos and Rider ⋅ Male", 
       "release": {
         "au": null, 
         "eu": null, 
@@ -12662,7 +12662,7 @@
       "gameSeries": "Monster Hunter", 
       "head": "35000200", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_35000200-02e20f02.png", 
-      "name": "One-Eyed Rathalos and Rider - Female", 
+      "name": "One-Eyed Rathalos and Rider ⋅ Female", 
       "release": {
         "au": null, 
         "eu": null, 
@@ -12902,7 +12902,7 @@
       "gameSeries": "Shovel Knight", 
       "head": "35c00000", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_35c00000-03920a02.png", 
-      "name": "Shovel Knight - Gold Edition", 
+      "name": "Shovel Knight ⋅ Gold Edition", 
       "release": {
         "au": null, 
         "eu": "2019-12-10", 
@@ -12982,7 +12982,7 @@
       "gameSeries": "Final Fantasy", 
       "head": "36000100", 
       "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_36000100-03620002.png", 
-      "name": "Cloud - Player 2", 
+      "name": "Cloud ⋅ Player 2", 
       "release": {
         "au": "2017-07-22", 
         "eu": "2017-07-21", 
