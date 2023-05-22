@@ -10,7 +10,7 @@
       div.card-body
         if name
             h5.card-title=name
-        button.btn.btn-light.btn-sm(data-bs-toggle="collapse" data-bs-target=`#collapse${slot + 1}` aria-expanded="false" aria-controls=`collapse${slot + 1}`) Details
+        button.btn.btn-light.btn-sm(data-bs-toggle="collapse" data-bs-target=`#collapse${slot + 1}` aria-expanded="false" aria-controls=`collapse${slot + 1}`) View Details
       .collapse(id=`collapse${slot + 1}`)
         ul.list-group.list-group-flush
           if id
@@ -31,7 +31,7 @@
               span=type
         
       .d-grid.p-3
-        button.btn.btn-dark.mb-3.slot-select-link Select
+        button.btn.btn-dark.btn-lg.mb-3.slot-select-link Select
         .dropdown.d-grid
           button.btn.btn-outline-secondary.dropdown-toggle(type="button", data-bs-toggle="dropdown", aria-expanded="false").
             Options  
@@ -45,12 +45,12 @@
     else
       div.card-body
         if name
-          p.small
+          p.small.mt-5.mb-1
             b="Name: "
             span=name
         if id
           p.small
             b="ID: "
             span=id
-      .d-grid.p-3
-        button.btn.btn-primary.slot-upload-link Upload
+      .d-grid.px-3.pb-3
+        button.btn.btn-primary.btn-lg.slot-upload-link Upload

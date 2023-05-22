@@ -13,10 +13,10 @@
   position: absolute;
   display: flex;
   align-items: center;
-  justify-content: center;
+  // justify-content: center;
   width: 40px;
   height: 40px;
-  background: $gray-200;
+  // background: $gray-200;
   left: 0.75rem;
   top: 0.75rem;
   border-radius: 50%;
@@ -24,9 +24,10 @@
 
 .slot-number {
   display: inline-block;
-  font-size: 0.85em;
-  font-weight: bold;
+  font-size: 3.5em;
+  font-weight: 800;
   position: absolute;
+  opacity: .3;
 } 
 
 .slot-image {
