@@ -1,4 +1,4 @@
-.card.slot
+.card.slot(id=`slot${slot + 1}`)
   .slot-number-container
     .slot-number=slot + 1
   .slot-summary.d-grid
@@ -32,6 +32,16 @@
         
       .d-grid.p-3
         button.btn.btn-dark.btn-lg.mb-3.slot-select-link Select
+        .jump-buttons.gap-2.mb-3
+          if (slot + 1 == 1)
+            a.select-next.btn.btn-dark.btn-lg(href=`#slot32`) Select Previous
+            a.select-previous.btn.btn-dark.btn-lg(href=`#slot${slot + 2}`) Select Next
+          else if (slot + 1 == 32)
+            a.select-next.btn.btn-dark.btn-lg(href=`#slot${slot}`) Select Previous
+            a.select-previous.btn.btn-dark.btn-lg(href=`#slot1`) Select Next
+          else
+            a.select-next.btn.btn-dark.btn-lg(href=`#slot${slot}`) Select Previous
+            a.select-previous.btn.btn-dark.btn-lg(href=`#slot${slot + 2}`) Select Next
 
         .btn-group(role="group")
           button.btn.btn-outline-secondary.slot-download-link(type="button") Download

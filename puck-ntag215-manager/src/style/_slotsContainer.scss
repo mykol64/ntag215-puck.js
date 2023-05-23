@@ -15,6 +15,14 @@
   }
 }
 
+.jump-buttons {
+  display: none;
+  .active & {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .slot-number-container {
   position: absolute;
   display: flex;

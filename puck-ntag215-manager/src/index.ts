@@ -199,6 +199,22 @@ $(() => {
       }
     })
 
+    element.find(".select-previous").on("click", async (e) => {
+      if (element.next().length) {
+        element.next('.slot').find('.slot-select-link').trigger('click')
+      } else {
+        element.parent().first().find('.slot-select-link').trigger('click')
+      }
+    })
+
+    element.find(".select-next").on("click", async (e) => {
+      if (element.prev().length) {
+        element.prev('.slot').find('.slot-select-link').trigger('click')
+      } else {
+        element.parent().last().find('.slot-select-link').trigger('click')
+      }
+    })
+
     return element
   }
 
