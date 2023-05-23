@@ -2,7 +2,7 @@
   .slot-number-container
     .slot-number=slot + 1
   .slot-summary.d-grid
-    if (name != "Unknown")
+    if (id != "0000000000000000")
       if image 
         div 
           img(src=image).slot-image.card-img-top
@@ -32,16 +32,21 @@
         
       .d-grid.p-3
         button.btn.btn-dark.btn-lg.mb-3.slot-select-link Select
-        .dropdown.d-grid
-          button.btn.btn-outline-secondary.dropdown-toggle(type="button", data-bs-toggle="dropdown", aria-expanded="false").
-            Options  
-          ul.dropdown-menu
-            li
-              button.dropdown-item.slot-download-link(type="button") Download
-            li
-              button.dropdown-item.slot-upload-link(type="button") Upload
-            li
-              button.dropdown-item.slot-clear-link(type="button") Clear
+
+        .btn-group(role="group")
+          button.btn.btn-outline-secondary.slot-download-link(type="button") Download
+          button.btn.btn-outline-secondary.slot-upload-link(type="button") Upload
+          button.btn.btn-outline-secondary.slot-clear-link(type="button") Clear
+        //- .dropdown.d-grid
+        //-   button.btn.btn-outline-secondary.dropdown-toggle(type="button", data-bs-toggle="dropdown", aria-expanded="false").
+        //-     Options  
+        //-   ul.dropdown-menu
+        //-     li
+        //-       button.dropdown-item.slot-download-link(type="button") Download
+        //-     li
+        //-       button.dropdown-item.slot-upload-link(type="button") Upload
+        //-     li
+        //-       button.dropdown-item.slot-clear-link(type="button") Clear
     else
       div.card-body
         if name

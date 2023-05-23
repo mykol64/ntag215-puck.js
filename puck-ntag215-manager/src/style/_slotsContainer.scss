@@ -7,6 +7,12 @@
 
 .slot {
   position: relative;
+  transition: all .25s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  &.active {
+    transform: scale3d(1.01,1.01,1.01);
+    filter: drop-shadow(2px 4px 6px lightgray);
+    .slot-select-link {display: none;}
+  }
 }
 
 .slot-number-container {

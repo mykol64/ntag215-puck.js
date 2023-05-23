@@ -187,6 +187,10 @@ $(() => {
         })
         await puck.changeSlot(slot)
         await hideModal()
+        
+        element.addClass('active')
+        element.siblings('.active').removeClass('active')
+
       } catch (error) {
         await showModal({
           title: "Error",
