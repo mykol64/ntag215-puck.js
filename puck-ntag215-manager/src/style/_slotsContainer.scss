@@ -23,7 +23,25 @@
       opacity: 1;
     }
 
+    .slot-image {
+      filter: none;
+      opacity: 0.7;
+      transition: all .25s ease-in-out;
+    }
+
+
+    .slot-image.blur {
+      filter: blur(25px) saturate(3);
+      opacity: 0.7;
+      transition: all .25s ease-in-out;
+    }
+
   }
+}
+
+.slot-summary {
+  background: $white;
+  border-radius: 4px;
 }
 
 .slot-button-container {
@@ -38,7 +56,7 @@
 }
 
 .jump-buttons {
-  transform: translateY(-100%);
+  transform: translateY(0);
   opacity: 0;  
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -48,8 +66,6 @@
 .slot.active {
   transition: all .15s ease-in-out;
 }
-
-
 
 .slot-number-container {
   position: absolute;
@@ -73,13 +89,25 @@
 } 
 
 .slot-image {
+  position: relative;
   height: 10rem;
   object-fit: cover;
   object-position: 100px 10%;
   opacity: 0.1;
   width: 100%;
   filter: grayscale(1);
-  background-image: (240deg, $gray-700, transparent)
+  transition: all .25s ease-in-out;
+  background-image: linear-gradient(240deg, $gray-700, transparent)
+}
+
+.slot-image.blur {
+  transition: all .25s ease-in-out;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  filter: blur(0) saturate(1);
+  opacity: 0;
 }
 
 .slot-mini-image {
