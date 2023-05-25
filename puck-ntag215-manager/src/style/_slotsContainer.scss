@@ -7,21 +7,49 @@
 
 .slot {
   position: relative;
-  transition: all .25s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  transition: all .3  s cubic-bezier(0.18, 0.89, 0.32, 1.28);
   &.active {
     transform: scale3d(1.01,1.01,1.01);
     filter: drop-shadow(2px 4px 6px lightgray);
-    .slot-select-link {display: none;}
+
+    .slot-select-link {
+      opacity: 0;
+      // transform: scale3d(.8,.8,.8);
+      transform: translateY(-4rem)
+    }
+
+    .jump-buttons {
+      transform: translateY(-4rem);
+      opacity: 1;
+    }
+
   }
 }
 
-.jump-buttons {
-  display: none;
-  .active & {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+.slot-button-container {
+  overflow: hidden;
+  max-height: 4rem;
 }
+
+.slot-select-link {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all .15s ease-in-out;
+}
+
+.jump-buttons {
+  transform: translateY(-100%);
+  opacity: 0;  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  transition: all .15s ease-in-out;
+}
+
+.slot.active {
+  transition: all .15s ease-in-out;
+}
+
+
 
 .slot-number-container {
   position: absolute;
