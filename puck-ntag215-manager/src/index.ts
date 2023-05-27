@@ -185,10 +185,13 @@ $(() => {
           message: `Changing to slot ${slot + 1}`,
           preventClose: true
         })
+
+        element.toggleClass('selection-pending')
+
         await puck.changeSlot(slot)
         await hideModal()
         
-        element.addClass('active')
+        element.toggleClass('selection-pending').addClass('active')
         element.siblings('.active').removeClass('active')
 
       } catch (error) {

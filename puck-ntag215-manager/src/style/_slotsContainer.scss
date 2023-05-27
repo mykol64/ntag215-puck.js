@@ -14,13 +14,15 @@
 
     .slot-select-link {
       opacity: 0;
+      pointer-events: none;
       // transform: scale3d(.8,.8,.8);
-      transform: translateY(-4rem)
+      transform: translateY(-4rem) scale3d(.8,.8,.8);
     }
 
     .jump-buttons {
       transform: translateY(-4rem);
       opacity: 1;
+      pointer-events: all;
     }
 
     .slot-image {
@@ -50,26 +52,37 @@
 }
 
 .slot-button-container {
-  overflow: hidden;
+  // overflow: hidden;
   max-height: 4rem;
+  > div, > button {
+      transition: all .25s cubic-bezier(0.4,-0.3, 0.5, 0.75);
+  }
 }
 
 .slot-select-link {
   opacity: 1;
+  pointer-events: all;
   transform: translateY(0);
-  transition: all .15s ease-in-out;
+  // transition: all .25s cubic-bezier(0.4,-0.3, 0.5, 0.75);
 }
 
 .jump-buttons {
-  transform: translateY(0);
   opacity: 0;  
+  pointer-events: none;
+  // transform: scale3d(.8,.8,.8);
+  transform: translateY(0) scale3d(.8,.8,.8);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  transition: all .15s ease-in-out;
+  // transition: all .25s cubic-bezier(0.4,-0.3, 0.5, 0.75);
 }
 
-.slot.active {
-  transition: all .15s ease-in-out;
+.slot {
+  transition: transform 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6) 
+}
+
+.slot.selection-pending {
+  transform: scale3d(0.9, 0.9, 1);
+  opacity: 0.8;
 }
 
 .slot-number-container {
