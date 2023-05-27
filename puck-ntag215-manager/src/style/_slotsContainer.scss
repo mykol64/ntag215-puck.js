@@ -8,9 +8,10 @@
 .slot {
   position: relative;
   transition: all .3  s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  // filter: drop-shadow(0px 0px 0px lightgray);
   &.active {
     transform: scale3d(1.01,1.01,1.01);
-    filter: drop-shadow(2px 4px 6px lightgray);
+    // filter: drop-shadow(2px 4px 6px lightgray);
 
     .slot-select-link {
       opacity: 0;
@@ -26,8 +27,9 @@
     }
 
     .slot-image {
-      filter: none;
-      opacity: 0.7;
+      filter: grayscale(.3);
+      background-image: linear-gradient(240deg, $gray-500, transparent);
+      opacity: 0.5;
       transition: all .25s ease-in-out;
     }
 
@@ -35,7 +37,6 @@
     .slot-image.blur {
       filter: blur(25px) saturate(3);
       opacity: 0.7;
-      transition: all .25s ease-in-out;
     }
 
   }
@@ -130,10 +131,12 @@
   transition: all .25s ease-in-out;
   position: absolute;
   left: 0;
+  right: 0;
   z-index: -1;
   height: 100%;
-  filter: blur(0) saturate(1);
   opacity: 0;
+  filter: blur(0) saturate(1);
+  max-height: 14rem;
 }
 
 .slot-mini-image {
