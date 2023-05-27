@@ -12,9 +12,14 @@
       div.card-body
         if name
             h5.card-title=name
-        button.btn.btn-light.btn-sm(data-bs-toggle="collapse" data-bs-target=`#collapse${slot + 1}` aria-expanded="false" aria-controls=`collapse${slot + 1}`) View Details
+        .container.p-0.d-flex
+          button.btn.btn-outline-secondary.btn-sm.me-2(data-bs-toggle="collapse" data-bs-target=`#collapse${slot + 1}` aria-expanded="false" aria-controls=`collapse${slot + 1}`) Details
+          .btn-group.flex-grow-1(role="group")
+            button.btn.btn-sm.btn-light.text-secondary.slot-upload-link(type="button") Upload
+            button.btn.btn-sm.btn-light.text-secondary.slot-download-link(type="button") Download
+            button.btn.btn-sm.btn-light.slot-clear-link(type="button") Clear
       .collapse(id=`collapse${slot + 1}`)
-        ul.list-group.list-group-flush
+        ul.list-group.list-group-flush.mb-3
           if id
             li.list-group-item.small
               b="ID: "
@@ -45,10 +50,6 @@
             a.select-next.btn.btn-dark.btn-lg(href=`#slot${slot}`) Previous
             a.select-previous.btn.btn-dark.btn-lg(href=`#slot${slot + 2}`) Next
 
-        .btn-group(role="group")
-          button.btn.btn-outline-secondary.slot-download-link(type="button") Download
-          button.btn.btn-outline-secondary.slot-upload-link(type="button") Upload
-          button.btn.btn-outline-secondary.slot-clear-link(type="button") Clear
         //- .dropdown.d-grid
         //-   button.btn.btn-outline-secondary.dropdown-toggle(type="button", data-bs-toggle="dropdown", aria-expanded="false").
         //-     Options  

@@ -76,6 +76,14 @@
   // transition: all .25s cubic-bezier(0.4,-0.3, 0.5, 0.75);
 }
 
+.slot-clear-link {
+  color: $danger;
+  &:hover {
+    background-color: $danger;
+    color: $white;
+  }
+}
+
 .slot {
   transition: transform 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6) 
 }
