@@ -3,10 +3,10 @@ $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/" !default;
 @import "node_modules/bootstrap/scss/bootstrap";
 // @import "mixins/breakpoints";
 // @import "_bootswatch.scss";
-@import "_githubCorner.scss";
+// @import "_githubCorner.scss";
 @import "_mainContainer.scss";
 @import "_slotsContainer.scss";
-@import "_kofi.scss";
+// @import "_kofi.scss";
 @import "~highlight.js/styles/atom-one-light.css";
 
 #code {

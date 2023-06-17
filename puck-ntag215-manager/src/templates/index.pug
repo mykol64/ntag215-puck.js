@@ -1,4 +1,4 @@
-include ./mixins/_githubCorner.pug
+//- include ./mixins/_githubCorner.pug
 
 html(lang="en") 
   head
@@ -11,8 +11,13 @@ html(lang="en")
     link(rel="apple-touch-icon", href="./apple-touch-icon.png")
   body
     //- +githubCorner("https://github.com/DanTheMan827/ntag215-puck.js", "#fff", "#151513")
+    .navbar.navbar-expand-lg.py-4.sticky-top.bg-light
+      .container-fluid
+        a.navbar-brand(href="#") amiibeau
+        button.btn.btn-primary.btn-lg#puckConnect(disabled="disabled") Connect to Tag
+        button.btn.btn-default.btn-md#puckDisconnect.mb3(disabled="disabled") Disconnect from Tag
     .container#mainContainer
-      .container.d-grid.mb-3
+      //- .container.d-grid.mb-3
         button.btn.btn-primary.btn-lg#puckConnect(disabled="disabled") Connect to Tag
         button.btn.btn-default.btn-md#puckDisconnect.mb3(disabled="disabled") Disconnect from Tag
 
@@ -28,4 +33,5 @@ html(lang="en")
       .editor__canvas
 
     //- include modal-std.pug
+    include kofi.pug
     include modal.pug

@@ -26,6 +26,7 @@ interface Amiibo {
 }
 
 $(() => {
+  const body = $("body")
   const mainContainer = $("#mainContainer")
   const slotsContainer = $("#slotsContainer")
   const scriptTextArea = $("#code")
@@ -238,7 +239,7 @@ $(() => {
       if (puck.isConnected) {
         await populateSlots()
 
-        mainContainer.addClass("connected")
+        body.addClass("connected")
       }
 
       if (firmwareName !== puck.firmwareName) {
@@ -277,7 +278,7 @@ $(() => {
         await puck.disconnect()
       }
 
-      mainContainer.removeClass("connected")
+      body.removeClass("connected")
 
       await hideModal()
     } catch (error) {
