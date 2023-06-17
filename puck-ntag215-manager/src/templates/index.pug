@@ -10,20 +10,28 @@ html(lang="en")
     link(rel="icon", href="./favicon.ico", type="image/x-icon")
     link(rel="apple-touch-icon", href="./apple-touch-icon.png")
   body
-    //- +githubCorner("https://github.com/DanTheMan827/ntag215-puck.js", "#fff", "#151513")
     .navbar.navbar-expand-lg.py-4.sticky-top.bg-light
       .container-fluid
         a.navbar-brand(href="#") amiibeau
         button.btn.btn-primary.btn-lg#puckConnect(disabled="disabled") Connect to Tag
         button.btn.btn-default.btn-md#puckDisconnect.mb3(disabled="disabled") Disconnect from Tag
     .container#mainContainer
-      //- .container.d-grid.mb-3
-        button.btn.btn-primary.btn-lg#puckConnect(disabled="disabled") Connect to Tag
-        button.btn.btn-default.btn-md#puckDisconnect.mb3(disabled="disabled") Disconnect from Tag
 
       #readme
-        include:markdown-it ../../readme.md
-        pre#code.hljs
+        h1.fs-2 What you'll need
+        ul
+          li A puck.js — find them at #[a(href="https://www.puck-js.com") puck-js.com]
+          li Files to load onto it
+        h1.fs-2 How to use amiibeau
+        h2.fs-4 Install custom firmware
+        p First, you'll need to install the custom firmware for the puck.js that adds NTAG215 emulation. 
+        //- p Head over to the #[a(href="https://dantheman827.github.io/ntag215-puck.js/")ntag215-puck.js project page] to do this... and maybe buy the original developer, #[a(href="https://dantheman827.github.io/ntag215")dantheman827], a coffee while you're there. 
+        p To install the updated firmware, you will first need to enter DFU mode. To enter DFU mode, remove the battery and re-insert it while holding the button until a green light turns on.
+        p Once you're in DFU mode, you can click the "Update Firmware" button above.
+        p Once you have the custom firmware installed, you can upload the script file by clicking the "Upload Script".
+        
+        //- include:markdown-it ../../readme.md
+        //- pre#code.hljs
           include:highlight(lang="javascript") ../../ntag215.js
 
       #slotsContainer.container.d-grid.gap-3
@@ -32,6 +40,5 @@ html(lang="en")
     .editor--terminal
       .editor__canvas
 
-    //- include modal-std.pug
     include kofi.pug
     include modal.pug
