@@ -1,19 +1,13 @@
-# How to use
+## What you'll need
 
-If you haven't already, you will need to install the custom firmware for the puck.js that adds NTAG215 emulation
+* A puck.js — find them at [puck-js.com](https://www.puck-js.com)
+* Custom firmware for NTAG215 emulation on that puck.js — instructions below
+* Files to load onto it
 
-To install the updated firmware, you will first need to enter DFU mode. To enter DFU mode, remove the battery and re-insert it while holding the button until a green light turns on.
+## How to use amiibeau
 
-Once you're in DFU mode, you can click the "Update Firmware" button above.
+First, you'll need to install the custom firmware for the puck.js that adds NTAG215 emulation.
 
-Once you have the custom firmware installed, you can upload the script file by clicking the "Upload Script".
+Head over to the [ntag215-puck.js project page](https://dantheman827.github.io/ntag215-puck.js/) to do this... and maybe buy the original developer, [dantheman827](https://dantheman827.github.io/ntag215), a coffee while you're there.
 
-If you want to manually upload the script, see the section below.
-
-## Manual Script Upload
-
-First you'll need to write [this .js file](https://raw.githubusercontent.com/DanTheMan827/ntag215-puck.js/master/ntag215.js) to your puck.js with the [Espruino IDE](https://www.espruino.com/ide/), then after you do that you'll be able to connect with this page by clicking connect to puck.
-
-If you ever want to put the puck back into programming mode, you can click the enable uart button that appears after connecting.
-
-**Note:** For best compatibility, you'll want to enable code minification, mangle, and pretokenise code before upload in the [Espruino IDE](https://www.espruino.com/ide/)
+Once you have the custom firmware installed, you'll be able to come back here and connect to the tag.
