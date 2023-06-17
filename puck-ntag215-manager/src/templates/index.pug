@@ -9,12 +9,15 @@ html(lang="en")
     link(rel="manifest", href="./site.webmanifest")
     link(rel="icon", href="./favicon.ico", type="image/x-icon")
     link(rel="apple-touch-icon", href="./apple-touch-icon.png")
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   body
-    .navbar.navbar-expand-lg.py-4.sticky-top.bg-light
-      .container-fluid
+    .navbar.navbar-expand-sm.py-4.sticky-top.bg-light
+      .container
         a.navbar-brand(href="#") amiibeau
-        button.btn.btn-primary.btn-lg#puckConnect(disabled="disabled") Connect to Tag
-        button.btn.btn-default.btn-md#puckDisconnect.mb3(disabled="disabled") Disconnect from Tag
+        .navbar-nav.gap-3#nav-buttons
+          a.btn.btn-outline-secondary(href="") #[i.bi.bi-github] View on github
+          button.btn.btn-primary.btn-md#puckConnect(disabled="disabled") #[i.bi.bi-plus-circle-fill] Connect to Tag
+          button.btn.btn-default.btn-md#puckDisconnect.mb3(disabled="disabled") #[i.bi.bi-x-lg] Disconnect from Tag
     .container#mainContainer
 
       #readme

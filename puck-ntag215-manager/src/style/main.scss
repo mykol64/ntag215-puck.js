@@ -17,6 +17,16 @@ $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/" !default;
   // border: 1px solid #0B0C0E;
 }
 
+#nav-buttons {
+  flex-direction: row !important;
+}
+
+@media (max-width: 350px) {
+  #nav-buttons {
+    flex-direction: column !important;
+  }
+}
+
 #terminalfocus, .editor--terminal {
   display: none;
 }
